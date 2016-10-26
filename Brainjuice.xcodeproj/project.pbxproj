@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020F0CBC1DAF28D700762150 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020F0CBB1DAF28D700762150 /* MenuScene.swift */; };
+		020F0CBE1DAF2BE600762150 /* menu_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F0CBD1DAF2BE600762150 /* menu_background.png */; };
+		020F0CC01DAF33C600762150 /* Sleep400X400.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F0CBF1DAF33C600762150 /* Sleep400X400.png */; };
+		020F0CC21DAF3F9E00762150 /* menu_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 020F0CC11DAF3F9E00762150 /* menu_title.png */; };
+		023C3E531DB7EDA10055ED44 /* WalkSeq.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 023C3E521DB7EDA10055ED44 /* WalkSeq.atlas */; };
+		0249C6A91DABDC0200599BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6A81DABDC0200599BD9 /* AppDelegate.swift */; };
+		0249C6AF1DABDC0200599BD9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6AE1DABDC0200599BD9 /* GameScene.swift */; };
+		0249C6B11DABDC0200599BD9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6B01DABDC0200599BD9 /* GameViewController.swift */; };
+		0249C6B41DABDC0200599BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0249C6B21DABDC0200599BD9 /* Main.storyboard */; };
+		0249C6B61DABDC0200599BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0249C6B51DABDC0200599BD9 /* Assets.xcassets */; };
+		0249C6B91DABDC0200599BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0249C6B71DABDC0200599BD9 /* LaunchScreen.storyboard */; };
+		0249C6C41DABDC0200599BD9 /* BrainjuiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6C31DABDC0200599BD9 /* BrainjuiceTests.swift */; };
+		0249C6CF1DABDC0200599BD9 /* BrainjuiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6CE1DABDC0200599BD9 /* BrainjuiceUITests.swift */; };
+		0249C6DF1DAD4F1100599BD9 /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0249C6DE1DAD4F1100599BD9 /* monster.png */; };
+		0249C6E11DAD5F3D00599BD9 /* Dude.png in Resources */ = {isa = PBXBuildFile; fileRef = 0249C6E01DAD5F3D00599BD9 /* Dude.png */; };
+		0249C6E31DAD686200599BD9 /* PlayerSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0249C6E21DAD686200599BD9 /* PlayerSprite.swift */; };
+		02AE5ADA1DAEB62A0098A61C /* MonsterSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE5AD91DAEB62A0098A61C /* MonsterSprite.swift */; };
+		02AE5ADE1DAED3840098A61C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AE5ADD1DAED3840098A61C /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0249C6C01DABDC0200599BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0249C69D1DABDC0100599BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0249C6A41DABDC0100599BD9;
+			remoteInfo = Brainjuice;
+		};
+		0249C6CB1DABDC0200599BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0249C69D1DABDC0100599BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0249C6A41DABDC0100599BD9;
+			remoteInfo = Brainjuice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020F0CBB1DAF28D700762150 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		020F0CBD1DAF2BE600762150 /* menu_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_background.png; sourceTree = "<group>"; };
+		020F0CBF1DAF33C600762150 /* Sleep400X400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sleep400X400.png; sourceTree = "<group>"; };
+		020F0CC11DAF3F9E00762150 /* menu_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_title.png; sourceTree = "<group>"; };
+		023C3E521DB7EDA10055ED44 /* WalkSeq.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = WalkSeq.atlas; path = Brainjuice/WalkSeq.atlas; sourceTree = "<group>"; };
+		0249C6A51DABDC0200599BD9 /* Brainjuice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brainjuice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0249C6A81DABDC0200599BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0249C6AE1DABDC0200599BD9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0249C6B01DABDC0200599BD9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0249C6B31DABDC0200599BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0249C6B51DABDC0200599BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0249C6B81DABDC0200599BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0249C6BA1DABDC0200599BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0249C6BF1DABDC0200599BD9 /* BrainjuiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainjuiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0249C6C31DABDC0200599BD9 /* BrainjuiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainjuiceTests.swift; sourceTree = "<group>"; };
+		0249C6C51DABDC0200599BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0249C6CA1DABDC0200599BD9 /* BrainjuiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainjuiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0249C6CE1DABDC0200599BD9 /* BrainjuiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainjuiceUITests.swift; sourceTree = "<group>"; };
+		0249C6D01DABDC0200599BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0249C6DE1DAD4F1100599BD9 /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		0249C6E01DAD5F3D00599BD9 /* Dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dude.png; sourceTree = "<group>"; };
+		0249C6E21DAD686200599BD9 /* PlayerSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerSprite.swift; path = Sprites/PlayerSprite.swift; sourceTree = "<group>"; };
+		02AE5AD91DAEB62A0098A61C /* MonsterSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonsterSprite.swift; path = Sprites/MonsterSprite.swift; sourceTree = "<group>"; };
+		02AE5ADD1DAED3840098A61C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0249C6A21DABDC0100599BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6BC1DABDC0200599BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6C71DABDC0200599BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0249C69C1DABDC0100599BD9 = {
+			isa = PBXGroup;
+			children = (
+				023C3E521DB7EDA10055ED44 /* WalkSeq.atlas */,
+				0249C6A71DABDC0200599BD9 /* Brainjuice */,
+				0249C6C21DABDC0200599BD9 /* BrainjuiceTests */,
+				0249C6CD1DABDC0200599BD9 /* BrainjuiceUITests */,
+				0249C6A61DABDC0200599BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0249C6A61DABDC0200599BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0249C6A51DABDC0200599BD9 /* Brainjuice.app */,
+				0249C6BF1DABDC0200599BD9 /* BrainjuiceTests.xctest */,
+				0249C6CA1DABDC0200599BD9 /* BrainjuiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0249C6A71DABDC0200599BD9 /* Brainjuice */ = {
+			isa = PBXGroup;
+			children = (
+				0249C6A81DABDC0200599BD9 /* AppDelegate.swift */,
+				0249C6AE1DABDC0200599BD9 /* GameScene.swift */,
+				020F0CBB1DAF28D700762150 /* MenuScene.swift */,
+				0249C6B01DABDC0200599BD9 /* GameViewController.swift */,
+				0249C6E21DAD686200599BD9 /* PlayerSprite.swift */,
+				02AE5AD91DAEB62A0098A61C /* MonsterSprite.swift */,
+				02AE5ADD1DAED3840098A61C /* Constants.swift */,
+				0249C6B21DABDC0200599BD9 /* Main.storyboard */,
+				0249C6E01DAD5F3D00599BD9 /* Dude.png */,
+				0249C6DE1DAD4F1100599BD9 /* monster.png */,
+				020F0CC11DAF3F9E00762150 /* menu_title.png */,
+				020F0CBD1DAF2BE600762150 /* menu_background.png */,
+				020F0CBF1DAF33C600762150 /* Sleep400X400.png */,
+				0249C6B51DABDC0200599BD9 /* Assets.xcassets */,
+				0249C6B71DABDC0200599BD9 /* LaunchScreen.storyboard */,
+				0249C6BA1DABDC0200599BD9 /* Info.plist */,
+			);
+			path = Brainjuice;
+			sourceTree = "<group>";
+		};
+		0249C6C21DABDC0200599BD9 /* BrainjuiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				0249C6C31DABDC0200599BD9 /* BrainjuiceTests.swift */,
+				0249C6C51DABDC0200599BD9 /* Info.plist */,
+			);
+			path = BrainjuiceTests;
+			sourceTree = "<group>";
+		};
+		0249C6CD1DABDC0200599BD9 /* BrainjuiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0249C6CE1DABDC0200599BD9 /* BrainjuiceUITests.swift */,
+				0249C6D01DABDC0200599BD9 /* Info.plist */,
+			);
+			path = BrainjuiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0249C6A41DABDC0100599BD9 /* Brainjuice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C6D31DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "Brainjuice" */;
+			buildPhases = (
+				0249C6A11DABDC0100599BD9 /* Sources */,
+				0249C6A21DABDC0100599BD9 /* Frameworks */,
+				0249C6A31DABDC0100599BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brainjuice;
+			productName = Brainjuice;
+			productReference = 0249C6A51DABDC0200599BD9 /* Brainjuice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0249C6BE1DABDC0200599BD9 /* BrainjuiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C6D61DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "BrainjuiceTests" */;
+			buildPhases = (
+				0249C6BB1DABDC0200599BD9 /* Sources */,
+				0249C6BC1DABDC0200599BD9 /* Frameworks */,
+				0249C6BD1DABDC0200599BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0249C6C11DABDC0200599BD9 /* PBXTargetDependency */,
+			);
+			name = BrainjuiceTests;
+			productName = BrainjuiceTests;
+			productReference = 0249C6BF1DABDC0200599BD9 /* BrainjuiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0249C6C91DABDC0200599BD9 /* BrainjuiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0249C6D91DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "BrainjuiceUITests" */;
+			buildPhases = (
+				0249C6C61DABDC0200599BD9 /* Sources */,
+				0249C6C71DABDC0200599BD9 /* Frameworks */,
+				0249C6C81DABDC0200599BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0249C6CC1DABDC0200599BD9 /* PBXTargetDependency */,
+			);
+			name = BrainjuiceUITests;
+			productName = BrainjuiceUITests;
+			productReference = 0249C6CA1DABDC0200599BD9 /* BrainjuiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0249C69D1DABDC0100599BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gabriele Bianchet-David";
+				TargetAttributes = {
+					0249C6A41DABDC0100599BD9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					0249C6BE1DABDC0200599BD9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0249C6A41DABDC0100599BD9;
+					};
+					0249C6C91DABDC0200599BD9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0249C6A41DABDC0100599BD9;
+					};
+				};
+			};
+			buildConfigurationList = 0249C6A01DABDC0100599BD9 /* Build configuration list for PBXProject "Brainjuice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0249C69C1DABDC0100599BD9;
+			productRefGroup = 0249C6A61DABDC0200599BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0249C6A41DABDC0100599BD9 /* Brainjuice */,
+				0249C6BE1DABDC0200599BD9 /* BrainjuiceTests */,
+				0249C6C91DABDC0200599BD9 /* BrainjuiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0249C6A31DABDC0100599BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020F0CBE1DAF2BE600762150 /* menu_background.png in Resources */,
+				0249C6B41DABDC0200599BD9 /* Main.storyboard in Resources */,
+				0249C6B61DABDC0200599BD9 /* Assets.xcassets in Resources */,
+				0249C6E11DAD5F3D00599BD9 /* Dude.png in Resources */,
+				023C3E531DB7EDA10055ED44 /* WalkSeq.atlas in Resources */,
+				0249C6DF1DAD4F1100599BD9 /* monster.png in Resources */,
+				020F0CC01DAF33C600762150 /* Sleep400X400.png in Resources */,
+				0249C6B91DABDC0200599BD9 /* LaunchScreen.storyboard in Resources */,
+				020F0CC21DAF3F9E00762150 /* menu_title.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6BD1DABDC0200599BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6C81DABDC0200599BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0249C6A11DABDC0100599BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0249C6AF1DABDC0200599BD9 /* GameScene.swift in Sources */,
+				02AE5ADA1DAEB62A0098A61C /* MonsterSprite.swift in Sources */,
+				0249C6E31DAD686200599BD9 /* PlayerSprite.swift in Sources */,
+				020F0CBC1DAF28D700762150 /* MenuScene.swift in Sources */,
+				0249C6B11DABDC0200599BD9 /* GameViewController.swift in Sources */,
+				0249C6A91DABDC0200599BD9 /* AppDelegate.swift in Sources */,
+				02AE5ADE1DAED3840098A61C /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6BB1DABDC0200599BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0249C6C41DABDC0200599BD9 /* BrainjuiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0249C6C61DABDC0200599BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0249C6CF1DABDC0200599BD9 /* BrainjuiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0249C6C11DABDC0200599BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0249C6A41DABDC0100599BD9 /* Brainjuice */;
+			targetProxy = 0249C6C01DABDC0200599BD9 /* PBXContainerItemProxy */;
+		};
+		0249C6CC1DABDC0200599BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0249C6A41DABDC0100599BD9 /* Brainjuice */;
+			targetProxy = 0249C6CB1DABDC0200599BD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0249C6B21DABDC0200599BD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0249C6B31DABDC0200599BD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0249C6B71DABDC0200599BD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0249C6B81DABDC0200599BD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0249C6D11DABDC0200599BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0249C6D21DABDC0200599BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0249C6D41DABDC0200599BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brainjuice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.Brainjuice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0249C6D51DABDC0200599BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brainjuice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.Brainjuice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0249C6D71DABDC0200599BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrainjuiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.BrainjuiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainjuice.app/Brainjuice";
+			};
+			name = Debug;
+		};
+		0249C6D81DABDC0200599BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrainjuiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.BrainjuiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brainjuice.app/Brainjuice";
+			};
+			name = Release;
+		};
+		0249C6DA1DABDC0200599BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrainjuiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.BrainjuiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brainjuice;
+			};
+			name = Debug;
+		};
+		0249C6DB1DABDC0200599BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrainjuiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatever.BrainjuiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brainjuice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0249C6A01DABDC0100599BD9 /* Build configuration list for PBXProject "Brainjuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C6D11DABDC0200599BD9 /* Debug */,
+				0249C6D21DABDC0200599BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C6D31DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "Brainjuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C6D41DABDC0200599BD9 /* Debug */,
+				0249C6D51DABDC0200599BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C6D61DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "BrainjuiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C6D71DABDC0200599BD9 /* Debug */,
+				0249C6D81DABDC0200599BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0249C6D91DABDC0200599BD9 /* Build configuration list for PBXNativeTarget "BrainjuiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0249C6DA1DABDC0200599BD9 /* Debug */,
+				0249C6DB1DABDC0200599BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0249C69D1DABDC0100599BD9 /* Project object */;
+}
